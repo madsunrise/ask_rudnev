@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="9003632a-93c1-438f-940c-e1e4e987adab">
+      <database-info product="MySQL" version="5.7.12-0ubuntu1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <user-name>root</user-name>
+      <user-password>dfc9dfc5dfc5dfc6</user-password>
+      <introspection-scope>ask_rudnev:*</introspection-scope>
+      <resolve-scope>ask_rudnev:*</resolve-scope>
+    </data-source>
+  </component>
+</project>

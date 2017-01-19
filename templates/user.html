@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+        <div class="content contentask" style="padding-left: 50px">
+            <h1>{{ user.username }}</h1>
+            <img src="/{{ user.profile.avatar.url }}">
+            <label class = "fieldname"> Email: {{ user.email }} </label>
+             <label class = "fieldname"> Зарегистрирован: {{ user.date_joined }} </label>
+
+
+        </div>
+
+
+{% endblock %}

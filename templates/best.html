@@ -1,0 +1,14 @@
+<div class="tags">
+    <h1>Популярные теги</h1>
+    {% for tag in data.tags %}
+        <a href="/tag/{{ tag.id }}">{{ tag.text }}</a>
+    {% endfor %}
+
+</div>
+
+<div class="members">
+    <h1>Лучшие пользователи</h1>
+    {% for user in data.users %}
+        <span>{{ user.user.username }} </span>
+    {% endfor %}
+</div>

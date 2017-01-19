@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load best %}
+<head>
+    <meta charset="UTF-8">
+    <title>AskMore</title>
+    <link rel="stylesheet" href="/reset.css"/>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <script type="text/javascript" src="/jquery.js"></script>
+    <script language="javascript" src="/rate.js"></script>
+
+    <div class="wrapper">
+        <header>
+
+            <a href="http://localhost/"><img class="logo" src="/logo.jpg" width="282" height="59"/></a>
+            <input type="text" class="search" placeholder="Поиск">
+            <span class="ask"><a href="/ask">Спросить!</a></span>
+
+            <div class="profile">
+            {% if user.is_authenticated %}
+                <img class="avatarprofile" src="/{{ request.user.profile.avatar.url }}" width="50" height="50"/>
+                <span class="logname">{{ request.user.username }}</span>
+                <a href="/logout" class="logout">Выход</a>
+                <a href="/profile" class="goToProfile">Профиль</a>
+
+
+            {% else %}
+               <div><a href="/login/?next={{ request.path }}"  class="login" style="margin-left: 200px;">Войти</a></div>
+               <div><a href="/signup/?next={{ request.path }}" class="create_account" style="margin-left: 120px;">Создать аккаунт</a></div>
+            {% endif %}
+        </div>
+        </header>
+
+        <main>
+            <div class="content">
+                {% block content %} {% endblock %}
+            </div>
+
+            <aside>
+               {% best %}
+            </aside>
+
+
+        </main>
+    </div>
+</body>
+</html>

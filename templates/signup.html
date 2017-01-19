@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+        <div class="content contentask" style="padding-left: 50px">
+            <h1>Регистрация</h1>
+            <form action="/signup/" class="form_question" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                {%  for field in form %}
+                    <span class="error"> {{ field.errors }}</span>
+                    <div>
+                        <label class = "fieldname"  for="{{ field.id_for_label }}"> {{ field.label }} </label>
+                       <div {% if field.errors %}class="error_input"{% endif %}>  {{ field }} </div>
+                    </div>
+                {%  endfor %}
+
+
+                    <span class="error">{{ avatar_form.avatar.errors }}</span>
+                    {{ avatar_form.avatar }}
+
+
+                <div>
+                    <input class="button" type="submit" style="margin-top: 15px" value="Создать аккаунт">
+                </div>
+
+            </form>
+        </div>
+
+
+{% endblock %}

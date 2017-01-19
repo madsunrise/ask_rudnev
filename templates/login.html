@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+        <div class="content contentask" style="padding-left: 50px">
+            <h1>Авторизация</h1>
+
+            <span class="error">{{ error }}</span>
+
+            <form name="login" method="post" action="/login/">
+                   {% csrf_token %}
+
+
+                   {%  for field in form %}
+                         {% if field.errors %}
+                            <span class="error">Поле обязательно</span>
+                       {% endif %}
+                        <div>
+                            <label class = "fieldname" for="{{ field.id_for_label }}"> {{ field.label }} </label>
+                            <div {% if field.errors %}class="error_input"{% endif %}>{{ field }}</div>
+                        </div>
+                {%  endfor %}
+                    <input class="button" type="submit" value="Войти">
+            </form>
+        </div>
+
+{% endblock %}

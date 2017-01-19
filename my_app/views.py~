@@ -1,0 +1,72 @@
+﻿from django.shortcuts import render
+from django.http import HttpResponse, Http404
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger 
+
+# Create your views here.
+
+questions_list = []
+for i in range(30):
+	questions_list.append({
+		'title' : 'Question №{}	  Какая из современных проблем Человечества станет главной через 20-30 лет?'.format(i),
+		'body' : 'На мой взгляд - это сильное возрастное различие нынешнего поколения - в развитых странах половина людей пенсионеры или станут ими через год-другой, а в развивающихся странах три четверти населения еще несовершеннолетние.',
+		'author' : 'maria',
+		'avatar' : '/ava5.jpg',
+		'num_of_answers' : 4,
+		'rating' : 5,		
+	})
+
+questions_list.append({
+		'title' : 'Какая из современных проблем Человечества станет главной через 20-30 лет?',
+		'body' : 'На мой взгляд - это сильное возрастное различие нынешнего поколения - в развитых странах половина людей пенсионеры или станут ими через год-другой, а в развивающихся странах три четверти населения еще несовершеннолетние.',
+		'author' : 'maria',
+		'avatar' : '/ava5.jpg',
+		'num_of_answers' : 4,
+		'rating' : 2,		
+	})
+
+
+
+
+def paginate(parametr, request, num_of_list):
+	contact_list = parametr
+	paginator = Paginator(contact_list, num_of_list)
+	page = request.GET.get('page')
+	try:
+		number_page = paginator.page(page)
+	except PageNotAnInteger:
+		number_page = paginator.page(1)
+	except EmptyPage:
+		number_page = paginator.page(paginator.num_pages)	
+	return number_page
+
+
+def hello(request):
+	return HttpResponse('hello world!')
+
+def hot (request):
+	return render(request, 'index.html', { 'questions' : sorted(questions_list, key= lambda d: d['rating']), } )
+
+
+def index (request):
+	qs = paginate(questions_list, request, 7)
+	if (qs.paginator.num_pages > 3):
+		return render(request, 'index.html', { 'questions' : qs, 'num_pages_minus2' :  qs.paginator.num_pages - 2} )
+	else:
+		return render(request, 'index.html', { 'questions' : qs,)
+		
+
+
+
+def login (request):
+	return render(request, 'login.html')
+
+def registration (request):
+	return render(request, 'registration.html')
+
+def question (request):
+	return render(request, 'question.html')
+
+def ask (request):
+	return render(request, 'ask.html')
+
+

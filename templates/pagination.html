@@ -1,0 +1,26 @@
+{% if questions.has_previous %}
+        {% if questions.number >= 3 %}
+            <a class="page" href="?page=1">1</a>
+             {% if questions.number != 3 %}
+                    <span class="page" style="border: none; padding-top: 16px; color: black;">...</span>
+             {% endif %}
+         {% endif %}
+        <a class="page" href="?page={{questions.previous_page_number}}">{{questions.previous_page_number}}</a>
+{% endif %}
+
+{% if questions.paginator.num_pages >= 2 %}
+    <a class="page" style="color: #4e8872;">{{questions.number}}</a>
+{% endif %}
+
+{% if questions.has_next %}
+         <a class="page" href="?page={{questions.next_page_number}}">{{questions.next_page_number}}</a>
+        {% if questions.number <= num_pages_minus2 %}
+            {% if questions.number != num_pages_minus2 %}
+                    <span class="page" style="border: none; padding-top: 16px; color: black;">...</span>
+            {% endif %}
+            <a class="page" href="?page={{questions.paginator.num_pages}}">{{questions.paginator.num_pages}}</a>
+        {% endif %}
+{% endif %}
+
+
+

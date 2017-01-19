@@ -1,0 +1,1144 @@
+[2016-05-11 19:03:49 +0000] [5159] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:03:49 +0000] [5159] [INFO] Listening at: http://127.0.0.1:8081 (5159)
+[2016-05-11 19:03:49 +0000] [5159] [INFO] Using worker: sync
+[2016-05-11 19:03:49 +0000] [5166] [INFO] Booting worker with pid: 5166
+[2016-05-11 19:03:49 +0000] [5166] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:03:49 +0000] [5166] [INFO] Worker exiting (pid: 5166)
+[2016-05-11 19:03:49 +0000] [5159] [INFO] Shutting down: Master
+[2016-05-11 19:03:49 +0000] [5159] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:03:56 +0000] [5226] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:03:56 +0000] [5226] [INFO] Listening at: http://127.0.0.1:8081 (5226)
+[2016-05-11 19:03:56 +0000] [5226] [INFO] Using worker: sync
+[2016-05-11 19:03:56 +0000] [5233] [INFO] Booting worker with pid: 5233
+[2016-05-11 19:03:56 +0000] [5233] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:03:56 +0000] [5233] [INFO] Worker exiting (pid: 5233)
+[2016-05-11 19:03:56 +0000] [5226] [INFO] Shutting down: Master
+[2016-05-11 19:03:56 +0000] [5226] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:22:09 +0000] [5731] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:22:24 +0000] [5795] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:22:24 +0000] [5795] [INFO] Listening at: http://127.0.0.1:8081 (5795)
+[2016-05-11 19:22:24 +0000] [5795] [INFO] Using worker: sync
+[2016-05-11 19:22:24 +0000] [5800] [INFO] Booting worker with pid: 5800
+[2016-05-11 19:22:24 +0000] [5800] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:22:24 +0000] [5800] [INFO] Worker exiting (pid: 5800)
+[2016-05-11 19:22:24 +0000] [5795] [INFO] Shutting down: Master
+[2016-05-11 19:22:24 +0000] [5795] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:23:36 +0000] [5905] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:23:36 +0000] [5905] [INFO] Listening at: http://127.0.0.1:8081 (5905)
+[2016-05-11 19:23:36 +0000] [5905] [INFO] Using worker: sync
+[2016-05-11 19:23:36 +0000] [5910] [INFO] Booting worker with pid: 5910
+[2016-05-11 19:23:36 +0000] [5910] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:23:36 +0000] [5910] [INFO] Worker exiting (pid: 5910)
+[2016-05-11 19:23:36 +0000] [5905] [INFO] Shutting down: Master
+[2016-05-11 19:23:36 +0000] [5905] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:23:57 +0000] [5982] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:23:57 +0000] [5982] [INFO] Listening at: http://127.0.0.1:8081 (5982)
+[2016-05-11 19:23:57 +0000] [5982] [INFO] Using worker: sync
+[2016-05-11 19:23:57 +0000] [5989] [INFO] Booting worker with pid: 5989
+[2016-05-11 19:23:57 +0000] [5989] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:23:57 +0000] [5989] [INFO] Worker exiting (pid: 5989)
+[2016-05-11 19:23:57 +0000] [5982] [INFO] Shutting down: Master
+[2016-05-11 19:23:57 +0000] [5982] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:25:10 +0000] [6159] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:25:10 +0000] [6159] [INFO] Listening at: http://127.0.0.1:8081 (6159)
+[2016-05-11 19:25:10 +0000] [6159] [INFO] Using worker: sync
+[2016-05-11 19:25:10 +0000] [6166] [INFO] Booting worker with pid: 6166
+[2016-05-11 19:25:10 +0000] [6166] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named ask_rudnev.wsgi
+[2016-05-11 19:25:10 +0000] [6166] [INFO] Worker exiting (pid: 6166)
+[2016-05-11 19:25:10 +0000] [6159] [INFO] Shutting down: Master
+[2016-05-11 19:25:10 +0000] [6159] [INFO] Reason: Worker failed to boot.
+[2016-05-11 19:25:30 +0000] [6227] [INFO] Starting gunicorn 19.4.5
+[2016-05-11 19:25:30 +0000] [6227] [INFO] Listening at: http://127.0.0.1:8081 (6227)
+[2016-05-11 19:25:30 +0000] [6227] [INFO] Using worker: sync
+[2016-05-11 19:25:30 +0000] [6234] [INFO] Booting worker with pid: 6234
+[2016-05-11 19:25:30 +0000] [6235] [INFO] Booting worker with pid: 6235
+[2016-05-11 19:25:40 +0000] [6227] [INFO] Handling signal: term
+[2016-05-11 16:25:40 +0000] [6234] [INFO] Worker exiting (pid: 6234)
+[2016-05-11 16:25:40 +0000] [6235] [INFO] Worker exiting (pid: 6235)
+[2016-05-11 19:25:40 +0000] [6227] [INFO] Shutting down: Master
+[2016-05-13 21:23:17 +0000] [6494] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:23:17 +0000] [6494] [INFO] Listening at: http://127.0.0.1:8081 (6494)
+[2016-05-13 21:23:17 +0000] [6494] [INFO] Using worker: sync
+[2016-05-13 21:23:17 +0000] [6501] [INFO] Booting worker with pid: 6501
+[2016-05-13 21:23:17 +0000] [6502] [INFO] Booting worker with pid: 6502
+[2016-05-13 21:28:14 +0000] [6494] [INFO] Handling signal: term
+[2016-05-13 18:28:14 +0000] [6501] [INFO] Worker exiting (pid: 6501)
+[2016-05-13 18:28:14 +0000] [6502] [INFO] Worker exiting (pid: 6502)
+[2016-05-13 21:28:14 +0000] [6494] [INFO] Shutting down: Master
+[2016-05-13 21:28:15 +0000] [6928] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:28:15 +0000] [6928] [INFO] Listening at: http://127.0.0.1:8081 (6928)
+[2016-05-13 21:28:15 +0000] [6928] [INFO] Using worker: sync
+[2016-05-13 21:28:15 +0000] [6935] [INFO] Booting worker with pid: 6935
+[2016-05-13 21:28:15 +0000] [6936] [INFO] Booting worker with pid: 6936
+[2016-05-13 21:28:35 +0000] [6928] [INFO] Handling signal: term
+[2016-05-13 18:28:35 +0000] [6936] [INFO] Worker exiting (pid: 6936)
+[2016-05-13 18:28:35 +0000] [6935] [INFO] Worker exiting (pid: 6935)
+[2016-05-13 21:28:35 +0000] [6928] [INFO] Shutting down: Master
+[2016-05-13 21:28:36 +0000] [7057] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:28:36 +0000] [7057] [INFO] Listening at: http://127.0.0.1:8081 (7057)
+[2016-05-13 21:28:36 +0000] [7057] [INFO] Using worker: sync
+[2016-05-13 21:28:36 +0000] [7064] [INFO] Booting worker with pid: 7064
+[2016-05-13 21:28:36 +0000] [7066] [INFO] Booting worker with pid: 7066
+[2016-05-13 21:29:29 +0000] [7057] [INFO] Handling signal: term
+[2016-05-13 18:29:29 +0000] [7064] [INFO] Worker exiting (pid: 7064)
+[2016-05-13 18:29:29 +0000] [7066] [INFO] Worker exiting (pid: 7066)
+[2016-05-13 21:29:29 +0000] [7057] [INFO] Shutting down: Master
+[2016-05-13 21:29:30 +0000] [7212] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:29:30 +0000] [7212] [INFO] Listening at: http://127.0.0.1:8081 (7212)
+[2016-05-13 21:29:30 +0000] [7212] [INFO] Using worker: sync
+[2016-05-13 21:29:30 +0000] [7219] [INFO] Booting worker with pid: 7219
+[2016-05-13 21:29:30 +0000] [7220] [INFO] Booting worker with pid: 7220
+[2016-05-13 21:30:43 +0000] [7212] [INFO] Handling signal: term
+[2016-05-13 18:30:43 +0000] [7220] [INFO] Worker exiting (pid: 7220)
+[2016-05-13 18:30:43 +0000] [7219] [INFO] Worker exiting (pid: 7219)
+[2016-05-13 21:30:43 +0000] [7212] [INFO] Shutting down: Master
+[2016-05-13 21:30:44 +0000] [7400] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:30:44 +0000] [7400] [INFO] Listening at: http://127.0.0.1:8081 (7400)
+[2016-05-13 21:30:44 +0000] [7400] [INFO] Using worker: sync
+[2016-05-13 21:30:44 +0000] [7407] [INFO] Booting worker with pid: 7407
+[2016-05-13 21:30:44 +0000] [7409] [INFO] Booting worker with pid: 7409
+[2016-05-13 21:32:35 +0000] [7400] [INFO] Handling signal: term
+[2016-05-13 18:32:35 +0000] [7407] [INFO] Worker exiting (pid: 7407)
+[2016-05-13 18:32:35 +0000] [7409] [INFO] Worker exiting (pid: 7409)
+[2016-05-13 21:32:35 +0000] [7400] [INFO] Shutting down: Master
+[2016-05-13 21:32:36 +0000] [7616] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:32:36 +0000] [7616] [INFO] Listening at: http://127.0.0.1:8081 (7616)
+[2016-05-13 21:32:36 +0000] [7616] [INFO] Using worker: sync
+[2016-05-13 21:32:36 +0000] [7623] [INFO] Booting worker with pid: 7623
+[2016-05-13 21:32:36 +0000] [7624] [INFO] Booting worker with pid: 7624
+[2016-05-13 21:33:50 +0000] [7616] [INFO] Handling signal: term
+[2016-05-13 18:33:50 +0000] [7624] [INFO] Worker exiting (pid: 7624)
+[2016-05-13 18:33:50 +0000] [7623] [INFO] Worker exiting (pid: 7623)
+[2016-05-13 21:33:50 +0000] [7616] [INFO] Shutting down: Master
+[2016-05-13 21:33:51 +0000] [7796] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:33:51 +0000] [7796] [INFO] Listening at: http://127.0.0.1:8081 (7796)
+[2016-05-13 21:33:51 +0000] [7796] [INFO] Using worker: sync
+[2016-05-13 21:33:51 +0000] [7803] [INFO] Booting worker with pid: 7803
+[2016-05-13 21:33:51 +0000] [7804] [INFO] Booting worker with pid: 7804
+[2016-05-13 21:35:04 +0000] [7796] [INFO] Handling signal: term
+[2016-05-13 18:35:04 +0000] [7804] [INFO] Worker exiting (pid: 7804)
+[2016-05-13 18:35:04 +0000] [7803] [INFO] Worker exiting (pid: 7803)
+[2016-05-13 21:35:04 +0000] [7796] [INFO] Shutting down: Master
+[2016-05-13 21:35:05 +0000] [7987] [INFO] Starting gunicorn 19.4.5
+[2016-05-13 21:35:05 +0000] [7987] [INFO] Listening at: http://127.0.0.1:8081 (7987)
+[2016-05-13 21:35:05 +0000] [7987] [INFO] Using worker: sync
+[2016-05-13 21:35:05 +0000] [7994] [INFO] Booting worker with pid: 7994
+[2016-05-13 21:35:05 +0000] [7995] [INFO] Booting worker with pid: 7995
+[2016-05-13 21:51:09 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:7994)
+[2016-05-13 21:51:09 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:7995)
+[2016-05-13 18:51:09 +0000] [7994] [INFO] Worker exiting (pid: 7994)
+[2016-05-13 18:51:09 +0000] [7995] [INFO] Worker exiting (pid: 7995)
+[2016-05-13 21:51:09 +0000] [8729] [INFO] Booting worker with pid: 8729
+[2016-05-13 21:51:09 +0000] [8730] [INFO] Booting worker with pid: 8730
+[2016-05-13 22:30:00 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:8729)
+[2016-05-13 22:30:00 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:8730)
+[2016-05-13 19:30:00 +0000] [8730] [INFO] Worker exiting (pid: 8730)
+[2016-05-13 19:30:00 +0000] [8729] [INFO] Worker exiting (pid: 8729)
+[2016-05-13 22:30:00 +0000] [9120] [INFO] Booting worker with pid: 9120
+[2016-05-13 22:30:00 +0000] [9121] [INFO] Booting worker with pid: 9121
+[2016-05-13 22:57:14 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:9120)
+[2016-05-13 19:57:14 +0000] [9120] [INFO] Worker exiting (pid: 9120)
+[2016-05-13 22:57:14 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:9121)
+[2016-05-13 19:57:14 +0000] [9121] [INFO] Worker exiting (pid: 9121)
+[2016-05-13 22:57:14 +0000] [9618] [INFO] Booting worker with pid: 9618
+[2016-05-13 22:57:14 +0000] [9620] [INFO] Booting worker with pid: 9620
+[2016-05-14 08:55:29 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:9618)
+[2016-05-14 05:55:29 +0000] [9618] [INFO] Worker exiting (pid: 9618)
+[2016-05-14 08:55:29 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:9620)
+[2016-05-14 05:55:29 +0000] [9620] [INFO] Worker exiting (pid: 9620)
+[2016-05-14 08:55:29 +0000] [10176] [INFO] Booting worker with pid: 10176
+[2016-05-14 08:55:29 +0000] [10177] [INFO] Booting worker with pid: 10177
+[2016-05-14 09:21:27 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:10176)
+[2016-05-14 06:21:27 +0000] [10176] [INFO] Worker exiting (pid: 10176)
+[2016-05-14 09:21:27 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:10177)
+[2016-05-14 06:21:27 +0000] [10177] [INFO] Worker exiting (pid: 10177)
+[2016-05-14 09:21:27 +0000] [11848] [INFO] Booting worker with pid: 11848
+[2016-05-14 09:21:27 +0000] [11849] [INFO] Booting worker with pid: 11849
+[2016-05-14 11:53:40 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:11848)
+[2016-05-14 08:53:40 +0000] [11848] [INFO] Worker exiting (pid: 11848)
+[2016-05-14 11:53:40 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:11849)
+[2016-05-14 08:53:40 +0000] [11849] [INFO] Worker exiting (pid: 11849)
+[2016-05-14 11:53:40 +0000] [23919] [INFO] Booting worker with pid: 23919
+[2016-05-14 11:53:40 +0000] [23920] [INFO] Booting worker with pid: 23920
+[2016-05-14 12:24:15 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:23920)
+[2016-05-14 09:24:15 +0000] [23920] [INFO] Worker exiting (pid: 23920)
+[2016-05-14 12:24:15 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:23919)
+[2016-05-14 09:24:15 +0000] [23919] [INFO] Worker exiting (pid: 23919)
+[2016-05-14 12:24:15 +0000] [25625] [INFO] Booting worker with pid: 25625
+[2016-05-14 12:24:15 +0000] [25626] [INFO] Booting worker with pid: 25626
+[2016-05-14 13:24:18 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:25625)
+[2016-05-14 10:24:18 +0000] [25625] [INFO] Worker exiting (pid: 25625)
+[2016-05-14 13:24:18 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:25626)
+[2016-05-14 10:24:18 +0000] [25626] [INFO] Worker exiting (pid: 25626)
+[2016-05-14 13:24:18 +0000] [26647] [INFO] Booting worker with pid: 26647
+[2016-05-14 13:24:19 +0000] [26648] [INFO] Booting worker with pid: 26648
+[2016-05-14 14:38:09 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:26647)
+[2016-05-14 11:38:09 +0000] [26647] [INFO] Worker exiting (pid: 26647)
+[2016-05-14 14:38:09 +0000] [7987] [CRITICAL] WORKER TIMEOUT (pid:26648)
+[2016-05-14 11:38:09 +0000] [26648] [INFO] Worker exiting (pid: 26648)
+[2016-05-14 14:38:09 +0000] [29557] [INFO] Booting worker with pid: 29557
+[2016-05-14 14:38:09 +0000] [29559] [INFO] Booting worker with pid: 29559
+[2016-05-14 11:40:06 +0000] [29559] [INFO] Worker exiting (pid: 29559)
+[2016-05-14 14:40:06 +0000] [29815] [INFO] Booting worker with pid: 29815
+[2016-05-14 14:40:06 +0000] [7987] [INFO] Handling signal: hup
+[2016-05-14 14:40:06 +0000] [7987] [INFO] Hang up: Master
+[2016-05-14 14:40:06 +0000] [29849] [INFO] Booting worker with pid: 29849
+[2016-05-14 14:40:06 +0000] [7987] [INFO] Handling signal: term
+[2016-05-14 14:40:06 +0000] [29854] [INFO] Booting worker with pid: 29854
+[2016-05-14 11:40:07 +0000] [29815] [INFO] Worker exiting (pid: 29815)
+[2016-05-14 11:40:07 +0000] [29849] [INFO] Worker exiting (pid: 29849)
+[2016-05-14 14:40:36 +0000] [7987] [INFO] Shutting down: Master
+[2016-05-15 20:50:04 +0000] [27838] [INFO] Starting gunicorn 19.4.5
+[2016-05-15 20:50:04 +0000] [27838] [INFO] Listening at: http://127.0.0.1:8081 (27838)
+[2016-05-15 20:50:04 +0000] [27838] [INFO] Using worker: sync
+[2016-05-15 20:50:04 +0000] [27845] [INFO] Booting worker with pid: 27845
+[2016-05-15 20:50:04 +0000] [27846] [INFO] Booting worker with pid: 27846
+[2016-05-16 00:22:00 +0000] [10372] [INFO] Booting worker with pid: 10372
+[2016-05-16 00:22:00 +0000] [10444] [INFO] Booting worker with pid: 10444
+[2016-05-16 00:22:00 +0000] [27838] [INFO] Handling signal: hup
+[2016-05-16 00:22:00 +0000] [27838] [INFO] Hang up: Master
+[2016-05-16 00:22:00 +0000] [10462] [INFO] Booting worker with pid: 10462
+[2016-05-16 00:22:00 +0000] [27838] [INFO] Handling signal: term
+[2016-05-16 00:22:00 +0000] [10463] [INFO] Booting worker with pid: 10463
+[2016-05-15 21:22:01 +0000] [10372] [INFO] Worker exiting (pid: 10372)
+[2016-05-15 21:22:01 +0000] [10444] [INFO] Worker exiting (pid: 10444)
+[2016-05-15 21:22:01 +0000] [10462] [INFO] Worker exiting (pid: 10462)
+[2016-05-16 00:22:30 +0000] [27838] [INFO] Shutting down: Master
+[2016-05-16 18:56:45 +0000] [25118] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 18:56:45 +0000] [25118] [INFO] Listening at: http://127.0.0.1:8081 (25118)
+[2016-05-16 18:56:45 +0000] [25118] [INFO] Using worker: sync
+[2016-05-16 18:56:45 +0000] [25125] [INFO] Booting worker with pid: 25125
+[2016-05-16 18:56:45 +0000] [25126] [INFO] Booting worker with pid: 25126
+[2016-05-16 19:25:53 +0000] [25118] [CRITICAL] WORKER TIMEOUT (pid:25125)
+[2016-05-16 19:25:53 +0000] [25118] [CRITICAL] WORKER TIMEOUT (pid:25126)
+[2016-05-16 16:25:53 +0000] [25125] [INFO] Worker exiting (pid: 25125)
+[2016-05-16 16:25:53 +0000] [25126] [INFO] Worker exiting (pid: 25126)
+[2016-05-16 19:25:53 +0000] [27184] [INFO] Booting worker with pid: 27184
+[2016-05-16 19:25:53 +0000] [27185] [INFO] Booting worker with pid: 27185
+[2016-05-16 19:33:25 +0000] [25118] [CRITICAL] WORKER TIMEOUT (pid:27184)
+[2016-05-16 19:33:25 +0000] [25118] [CRITICAL] WORKER TIMEOUT (pid:27185)
+[2016-05-16 16:33:25 +0000] [27184] [INFO] Worker exiting (pid: 27184)
+[2016-05-16 16:33:25 +0000] [27185] [INFO] Worker exiting (pid: 27185)
+[2016-05-16 19:33:25 +0000] [27505] [INFO] Booting worker with pid: 27505
+[2016-05-16 19:33:25 +0000] [27506] [INFO] Booting worker with pid: 27506
+[2016-05-16 19:41:26 +0000] [25118] [INFO] Handling signal: term
+[2016-05-16 16:41:26 +0000] [27506] [INFO] Worker exiting (pid: 27506)
+[2016-05-16 16:41:26 +0000] [27505] [INFO] Worker exiting (pid: 27505)
+[2016-05-16 19:41:26 +0000] [25118] [INFO] Shutting down: Master
+[2016-05-16 19:41:27 +0000] [28321] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 19:41:27 +0000] [28321] [INFO] Listening at: http://127.0.0.1:8081 (28321)
+[2016-05-16 19:41:27 +0000] [28321] [INFO] Using worker: sync
+[2016-05-16 19:41:27 +0000] [28328] [INFO] Booting worker with pid: 28328
+[2016-05-16 19:41:27 +0000] [28329] [INFO] Booting worker with pid: 28329
+[2016-05-16 19:49:34 +0000] [28321] [INFO] Handling signal: term
+[2016-05-16 16:49:34 +0000] [28328] [INFO] Worker exiting (pid: 28328)
+[2016-05-16 16:49:34 +0000] [28329] [INFO] Worker exiting (pid: 28329)
+[2016-05-16 19:49:34 +0000] [28321] [INFO] Shutting down: Master
+[2016-05-16 19:49:34 +0000] [28930] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 19:49:34 +0000] [28930] [INFO] Listening at: http://127.0.0.1:8081 (28930)
+[2016-05-16 19:49:34 +0000] [28930] [INFO] Using worker: sync
+[2016-05-16 19:49:34 +0000] [28937] [INFO] Booting worker with pid: 28937
+[2016-05-16 19:49:35 +0000] [28938] [INFO] Booting worker with pid: 28938
+[2016-05-16 20:01:00 +0000] [28930] [INFO] Handling signal: term
+[2016-05-16 17:01:00 +0000] [28938] [INFO] Worker exiting (pid: 28938)
+[2016-05-16 17:01:00 +0000] [28937] [INFO] Worker exiting (pid: 28937)
+[2016-05-16 20:01:00 +0000] [28930] [INFO] Shutting down: Master
+[2016-05-16 20:01:00 +0000] [3625] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 20:01:00 +0000] [3625] [INFO] Listening at: http://127.0.0.1:8081 (3625)
+[2016-05-16 20:01:00 +0000] [3625] [INFO] Using worker: sync
+[2016-05-16 20:01:00 +0000] [3632] [INFO] Booting worker with pid: 3632
+[2016-05-16 20:01:00 +0000] [3633] [INFO] Booting worker with pid: 3633
+[2016-05-16 20:14:32 +0000] [3625] [INFO] Handling signal: term
+[2016-05-16 17:14:32 +0000] [3633] [INFO] Worker exiting (pid: 3633)
+[2016-05-16 17:14:32 +0000] [3632] [INFO] Worker exiting (pid: 3632)
+[2016-05-16 20:14:32 +0000] [3625] [INFO] Shutting down: Master
+[2016-05-16 20:14:33 +0000] [5087] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 20:14:33 +0000] [5087] [INFO] Listening at: http://127.0.0.1:8081 (5087)
+[2016-05-16 20:14:33 +0000] [5087] [INFO] Using worker: sync
+[2016-05-16 20:14:33 +0000] [5094] [INFO] Booting worker with pid: 5094
+[2016-05-16 20:14:33 +0000] [5095] [INFO] Booting worker with pid: 5095
+[2016-05-16 21:26:20 +0000] [5087] [INFO] Handling signal: term
+[2016-05-16 18:26:20 +0000] [5094] [INFO] Worker exiting (pid: 5094)
+[2016-05-16 18:26:20 +0000] [5095] [INFO] Worker exiting (pid: 5095)
+[2016-05-16 21:26:20 +0000] [5087] [INFO] Shutting down: Master
+[2016-05-16 21:26:20 +0000] [9303] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 21:26:20 +0000] [9303] [INFO] Listening at: http://127.0.0.1:8081 (9303)
+[2016-05-16 21:26:20 +0000] [9303] [INFO] Using worker: sync
+[2016-05-16 21:26:20 +0000] [9310] [INFO] Booting worker with pid: 9310
+[2016-05-16 21:26:20 +0000] [9311] [INFO] Booting worker with pid: 9311
+[2016-05-16 21:30:44 +0000] [9303] [INFO] Handling signal: term
+[2016-05-16 18:30:44 +0000] [9311] [INFO] Worker exiting (pid: 9311)
+[2016-05-16 18:30:44 +0000] [9310] [INFO] Worker exiting (pid: 9310)
+[2016-05-16 21:30:44 +0000] [9303] [INFO] Shutting down: Master
+[2016-05-16 21:30:44 +0000] [9655] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 21:30:44 +0000] [9655] [INFO] Listening at: http://127.0.0.1:8081 (9655)
+[2016-05-16 21:30:44 +0000] [9655] [INFO] Using worker: sync
+[2016-05-16 21:30:44 +0000] [9662] [INFO] Booting worker with pid: 9662
+[2016-05-16 21:30:44 +0000] [9663] [INFO] Booting worker with pid: 9663
+[2016-05-16 21:31:33 +0000] [9655] [INFO] Handling signal: term
+[2016-05-16 18:31:33 +0000] [9663] [INFO] Worker exiting (pid: 9663)
+[2016-05-16 18:31:33 +0000] [9662] [INFO] Worker exiting (pid: 9662)
+[2016-05-16 21:31:33 +0000] [9655] [INFO] Shutting down: Master
+[2016-05-16 21:31:34 +0000] [9800] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 21:31:34 +0000] [9800] [INFO] Listening at: http://127.0.0.1:8081 (9800)
+[2016-05-16 21:31:34 +0000] [9800] [INFO] Using worker: sync
+[2016-05-16 21:31:34 +0000] [9807] [INFO] Booting worker with pid: 9807
+[2016-05-16 21:31:34 +0000] [9808] [INFO] Booting worker with pid: 9808
+[2016-05-16 21:32:15 +0000] [9800] [INFO] Handling signal: term
+[2016-05-16 18:32:15 +0000] [9807] [INFO] Worker exiting (pid: 9807)
+[2016-05-16 18:32:15 +0000] [9808] [INFO] Worker exiting (pid: 9808)
+[2016-05-16 21:32:15 +0000] [9800] [INFO] Shutting down: Master
+[2016-05-16 21:32:16 +0000] [9942] [INFO] Starting gunicorn 19.4.5
+[2016-05-16 21:32:16 +0000] [9942] [INFO] Listening at: http://127.0.0.1:8081 (9942)
+[2016-05-16 21:32:16 +0000] [9942] [INFO] Using worker: sync
+[2016-05-16 21:32:16 +0000] [9949] [INFO] Booting worker with pid: 9949
+[2016-05-16 21:32:16 +0000] [9952] [INFO] Booting worker with pid: 9952
+[2016-05-16 22:25:56 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:9952)
+[2016-05-16 19:25:56 +0000] [9952] [INFO] Worker exiting (pid: 9952)
+[2016-05-16 22:25:56 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:9949)
+[2016-05-16 19:25:56 +0000] [9949] [INFO] Worker exiting (pid: 9949)
+[2016-05-16 22:25:56 +0000] [10638] [INFO] Booting worker with pid: 10638
+[2016-05-16 22:25:56 +0000] [10662] [INFO] Booting worker with pid: 10662
+[2016-05-16 23:08:37 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:10662)
+[2016-05-16 20:08:37 +0000] [10662] [INFO] Worker exiting (pid: 10662)
+[2016-05-16 23:08:37 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:10638)
+[2016-05-16 20:08:37 +0000] [10638] [INFO] Worker exiting (pid: 10638)
+[2016-05-16 23:08:37 +0000] [13750] [INFO] Booting worker with pid: 13750
+[2016-05-16 23:08:37 +0000] [13753] [INFO] Booting worker with pid: 13753
+[2016-05-16 23:35:33 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:13753)
+[2016-05-16 23:35:33 +0000] [9942] [CRITICAL] WORKER TIMEOUT (pid:13750)
+[2016-05-16 20:35:33 +0000] [13753] [INFO] Worker exiting (pid: 13753)
+[2016-05-16 20:35:33 +0000] [13750] [INFO] Worker exiting (pid: 13750)
+[2016-05-16 23:35:33 +0000] [14394] [INFO] Booting worker with pid: 14394
+[2016-05-16 23:35:33 +0000] [14395] [INFO] Booting worker with pid: 14395
+[2016-05-17 00:10:02 +0000] [9942] [INFO] Handling signal: term
+[2016-05-16 21:10:02 +0000] [14395] [INFO] Worker exiting (pid: 14395)
+[2016-05-16 21:10:02 +0000] [14394] [INFO] Worker exiting (pid: 14394)
+[2016-05-17 00:10:02 +0000] [9942] [INFO] Shutting down: Master
+[2016-05-17 00:10:02 +0000] [17177] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:10:02 +0000] [17177] [INFO] Listening at: http://127.0.0.1:8081 (17177)
+[2016-05-17 00:10:02 +0000] [17177] [INFO] Using worker: sync
+[2016-05-17 00:10:02 +0000] [17184] [INFO] Booting worker with pid: 17184
+[2016-05-17 00:10:02 +0000] [17187] [INFO] Booting worker with pid: 17187
+[2016-05-17 00:13:58 +0000] [17177] [INFO] Handling signal: term
+[2016-05-16 21:13:58 +0000] [17187] [INFO] Worker exiting (pid: 17187)
+[2016-05-16 21:13:58 +0000] [17184] [INFO] Worker exiting (pid: 17184)
+[2016-05-17 00:13:58 +0000] [17177] [INFO] Shutting down: Master
+[2016-05-17 00:13:58 +0000] [17569] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:13:58 +0000] [17569] [INFO] Listening at: http://127.0.0.1:8081 (17569)
+[2016-05-17 00:13:58 +0000] [17569] [INFO] Using worker: sync
+[2016-05-17 00:13:58 +0000] [17576] [INFO] Booting worker with pid: 17576
+[2016-05-17 00:13:58 +0000] [17579] [INFO] Booting worker with pid: 17579
+[2016-05-17 00:21:04 +0000] [17569] [INFO] Handling signal: term
+[2016-05-16 21:21:04 +0000] [17579] [INFO] Worker exiting (pid: 17579)
+[2016-05-16 21:21:04 +0000] [17576] [INFO] Worker exiting (pid: 17576)
+[2016-05-17 00:21:04 +0000] [17569] [INFO] Shutting down: Master
+[2016-05-17 00:21:04 +0000] [18306] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:21:04 +0000] [18306] [INFO] Listening at: http://127.0.0.1:8081 (18306)
+[2016-05-17 00:21:04 +0000] [18306] [INFO] Using worker: sync
+[2016-05-17 00:21:04 +0000] [18313] [INFO] Booting worker with pid: 18313
+[2016-05-17 00:21:04 +0000] [18316] [INFO] Booting worker with pid: 18316
+[2016-05-17 00:27:05 +0000] [18306] [INFO] Handling signal: term
+[2016-05-16 21:27:05 +0000] [18316] [INFO] Worker exiting (pid: 18316)
+[2016-05-16 21:27:05 +0000] [18313] [INFO] Worker exiting (pid: 18313)
+[2016-05-17 00:27:05 +0000] [18306] [INFO] Shutting down: Master
+[2016-05-17 00:27:06 +0000] [18744] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:27:06 +0000] [18744] [INFO] Listening at: http://127.0.0.1:8081 (18744)
+[2016-05-17 00:27:06 +0000] [18744] [INFO] Using worker: sync
+[2016-05-17 00:27:06 +0000] [18751] [INFO] Booting worker with pid: 18751
+[2016-05-17 00:27:06 +0000] [18754] [INFO] Booting worker with pid: 18754
+[2016-05-17 00:27:55 +0000] [18744] [INFO] Handling signal: term
+[2016-05-16 21:27:55 +0000] [18751] [INFO] Worker exiting (pid: 18751)
+[2016-05-16 21:27:55 +0000] [18754] [INFO] Worker exiting (pid: 18754)
+[2016-05-17 00:27:55 +0000] [18744] [INFO] Shutting down: Master
+[2016-05-17 00:27:56 +0000] [18894] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:27:56 +0000] [18894] [INFO] Listening at: http://127.0.0.1:8081 (18894)
+[2016-05-17 00:27:56 +0000] [18894] [INFO] Using worker: sync
+[2016-05-17 00:27:56 +0000] [18901] [INFO] Booting worker with pid: 18901
+[2016-05-17 00:27:56 +0000] [18902] [INFO] Booting worker with pid: 18902
+[2016-05-16 21:27:56 +0000] [18901] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:27:56 +0000] [18901] [INFO] Worker exiting (pid: 18901)
+[2016-05-16 21:27:56 +0000] [18902] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:27:56 +0000] [18902] [INFO] Worker exiting (pid: 18902)
+[2016-05-17 00:28:22 +0000] [19021] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:28:22 +0000] [19021] [INFO] Listening at: http://127.0.0.1:8081 (19021)
+[2016-05-17 00:28:22 +0000] [19021] [INFO] Using worker: sync
+[2016-05-17 00:28:22 +0000] [19028] [INFO] Booting worker with pid: 19028
+[2016-05-17 00:28:22 +0000] [19029] [INFO] Booting worker with pid: 19029
+[2016-05-16 21:28:22 +0000] [19028] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:28:22 +0000] [19028] [INFO] Worker exiting (pid: 19028)
+[2016-05-16 21:28:22 +0000] [19029] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:28:22 +0000] [19029] [INFO] Worker exiting (pid: 19029)
+[2016-05-17 00:28:40 +0000] [19180] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:28:40 +0000] [19180] [INFO] Listening at: http://127.0.0.1:8081 (19180)
+[2016-05-17 00:28:40 +0000] [19180] [INFO] Using worker: sync
+[2016-05-17 00:28:40 +0000] [19187] [INFO] Booting worker with pid: 19187
+[2016-05-17 00:28:40 +0000] [19190] [INFO] Booting worker with pid: 19190
+[2016-05-17 00:28:53 +0000] [19180] [INFO] Handling signal: term
+[2016-05-16 21:28:53 +0000] [19187] [INFO] Worker exiting (pid: 19187)
+[2016-05-16 21:28:53 +0000] [19190] [INFO] Worker exiting (pid: 19190)
+[2016-05-17 00:28:54 +0000] [19180] [INFO] Shutting down: Master
+[2016-05-17 00:28:54 +0000] [19296] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:28:54 +0000] [19296] [INFO] Listening at: http://127.0.0.1:8081 (19296)
+[2016-05-17 00:28:54 +0000] [19296] [INFO] Using worker: sync
+[2016-05-17 00:28:54 +0000] [19303] [INFO] Booting worker with pid: 19303
+[2016-05-17 00:28:54 +0000] [19306] [INFO] Booting worker with pid: 19306
+[2016-05-16 21:28:54 +0000] [19303] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:28:54 +0000] [19303] [INFO] Worker exiting (pid: 19303)
+[2016-05-16 21:28:54 +0000] [19306] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+Traceback (most recent call last):
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/ivan/django/ask_rudnev/ask_rudnev/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup()
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/__init__.py", line 18, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/home/ivan/.virtualenvs/django/local/lib/python2.7/site-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/ivan/django/ask_rudnev/my_app/models.py", line 3, in <module>
+    from my_app.models import Profile
+ImportError: cannot import name Profile
+[2016-05-16 21:28:54 +0000] [19306] [INFO] Worker exiting (pid: 19306)
+[2016-05-17 00:29:25 +0000] [19443] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:29:25 +0000] [19443] [INFO] Listening at: http://127.0.0.1:8081 (19443)
+[2016-05-17 00:29:25 +0000] [19443] [INFO] Using worker: sync
+[2016-05-17 00:29:25 +0000] [19450] [INFO] Booting worker with pid: 19450
+[2016-05-17 00:29:25 +0000] [19451] [INFO] Booting worker with pid: 19451
+[2016-05-17 00:29:56 +0000] [19443] [INFO] Handling signal: term
+[2016-05-16 21:29:56 +0000] [19451] [INFO] Worker exiting (pid: 19451)
+[2016-05-16 21:29:56 +0000] [19450] [INFO] Worker exiting (pid: 19450)
+[2016-05-17 00:29:56 +0000] [19443] [INFO] Shutting down: Master
+[2016-05-17 00:29:57 +0000] [19586] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:29:57 +0000] [19586] [INFO] Listening at: http://127.0.0.1:8081 (19586)
+[2016-05-17 00:29:57 +0000] [19586] [INFO] Using worker: sync
+[2016-05-17 00:29:57 +0000] [19593] [INFO] Booting worker with pid: 19593
+[2016-05-17 00:29:57 +0000] [19594] [INFO] Booting worker with pid: 19594
+[2016-05-17 00:31:54 +0000] [19586] [INFO] Handling signal: term
+[2016-05-16 21:31:54 +0000] [19593] [INFO] Worker exiting (pid: 19593)
+[2016-05-16 21:31:54 +0000] [19594] [INFO] Worker exiting (pid: 19594)
+[2016-05-17 00:31:54 +0000] [19586] [INFO] Shutting down: Master
+[2016-05-17 00:31:54 +0000] [19797] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:31:54 +0000] [19797] [INFO] Listening at: http://127.0.0.1:8081 (19797)
+[2016-05-17 00:31:54 +0000] [19797] [INFO] Using worker: sync
+[2016-05-17 00:31:54 +0000] [19804] [INFO] Booting worker with pid: 19804
+[2016-05-17 00:31:54 +0000] [19805] [INFO] Booting worker with pid: 19805
+[2016-05-17 00:34:06 +0000] [19797] [INFO] Handling signal: term
+[2016-05-16 21:34:06 +0000] [19805] [INFO] Worker exiting (pid: 19805)
+[2016-05-16 21:34:06 +0000] [19804] [INFO] Worker exiting (pid: 19804)
+[2016-05-17 00:34:06 +0000] [19797] [INFO] Shutting down: Master
+[2016-05-17 00:34:06 +0000] [20036] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:34:06 +0000] [20036] [INFO] Listening at: http://127.0.0.1:8081 (20036)
+[2016-05-17 00:34:06 +0000] [20036] [INFO] Using worker: sync
+[2016-05-17 00:34:06 +0000] [20043] [INFO] Booting worker with pid: 20043
+[2016-05-17 00:34:06 +0000] [20044] [INFO] Booting worker with pid: 20044
+[2016-05-17 00:34:26 +0000] [20036] [INFO] Handling signal: term
+[2016-05-16 21:34:26 +0000] [20043] [INFO] Worker exiting (pid: 20043)
+[2016-05-16 21:34:26 +0000] [20044] [INFO] Worker exiting (pid: 20044)
+[2016-05-17 00:34:26 +0000] [20036] [INFO] Shutting down: Master
+[2016-05-17 00:34:26 +0000] [20159] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:34:26 +0000] [20159] [INFO] Listening at: http://127.0.0.1:8081 (20159)
+[2016-05-17 00:34:26 +0000] [20159] [INFO] Using worker: sync
+[2016-05-17 00:34:26 +0000] [20166] [INFO] Booting worker with pid: 20166
+[2016-05-17 00:34:27 +0000] [20167] [INFO] Booting worker with pid: 20167
+[2016-05-17 00:35:43 +0000] [20159] [INFO] Handling signal: term
+[2016-05-16 21:35:43 +0000] [20166] [INFO] Worker exiting (pid: 20166)
+[2016-05-16 21:35:43 +0000] [20167] [INFO] Worker exiting (pid: 20167)
+[2016-05-17 00:35:43 +0000] [20159] [INFO] Shutting down: Master
+[2016-05-17 00:35:44 +0000] [20344] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:35:44 +0000] [20344] [INFO] Listening at: http://127.0.0.1:8081 (20344)
+[2016-05-17 00:35:44 +0000] [20344] [INFO] Using worker: sync
+[2016-05-17 00:35:44 +0000] [20351] [INFO] Booting worker with pid: 20351
+[2016-05-17 00:35:44 +0000] [20352] [INFO] Booting worker with pid: 20352
+[2016-05-17 00:37:39 +0000] [20344] [INFO] Handling signal: term
+[2016-05-16 21:37:39 +0000] [20352] [INFO] Worker exiting (pid: 20352)
+[2016-05-16 21:37:39 +0000] [20351] [INFO] Worker exiting (pid: 20351)
+[2016-05-17 00:37:39 +0000] [20344] [INFO] Shutting down: Master
+[2016-05-17 00:37:40 +0000] [20551] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:37:40 +0000] [20551] [INFO] Listening at: http://127.0.0.1:8081 (20551)
+[2016-05-17 00:37:40 +0000] [20551] [INFO] Using worker: sync
+[2016-05-17 00:37:40 +0000] [20558] [INFO] Booting worker with pid: 20558
+[2016-05-17 00:37:40 +0000] [20559] [INFO] Booting worker with pid: 20559
+[2016-05-17 00:37:55 +0000] [20551] [INFO] Handling signal: term
+[2016-05-16 21:37:55 +0000] [20558] [INFO] Worker exiting (pid: 20558)
+[2016-05-16 21:37:55 +0000] [20559] [INFO] Worker exiting (pid: 20559)
+[2016-05-17 00:37:55 +0000] [20551] [INFO] Shutting down: Master
+[2016-05-17 00:37:55 +0000] [20669] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:37:55 +0000] [20669] [INFO] Listening at: http://127.0.0.1:8081 (20669)
+[2016-05-17 00:37:55 +0000] [20669] [INFO] Using worker: sync
+[2016-05-17 00:37:55 +0000] [20676] [INFO] Booting worker with pid: 20676
+[2016-05-17 00:37:55 +0000] [20677] [INFO] Booting worker with pid: 20677
+[2016-05-17 00:41:00 +0000] [20669] [INFO] Handling signal: term
+[2016-05-16 21:41:00 +0000] [20676] [INFO] Worker exiting (pid: 20676)
+[2016-05-16 21:41:00 +0000] [20677] [INFO] Worker exiting (pid: 20677)
+[2016-05-17 00:41:00 +0000] [20669] [INFO] Shutting down: Master
+[2016-05-17 00:41:01 +0000] [20994] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:41:01 +0000] [20994] [INFO] Listening at: http://127.0.0.1:8081 (20994)
+[2016-05-17 00:41:01 +0000] [20994] [INFO] Using worker: sync
+[2016-05-17 00:41:01 +0000] [21001] [INFO] Booting worker with pid: 21001
+[2016-05-17 00:41:01 +0000] [21002] [INFO] Booting worker with pid: 21002
+[2016-05-17 00:50:51 +0000] [20994] [INFO] Handling signal: term
+[2016-05-16 21:50:51 +0000] [21001] [INFO] Worker exiting (pid: 21001)
+[2016-05-16 21:50:51 +0000] [21002] [INFO] Worker exiting (pid: 21002)
+[2016-05-17 00:50:51 +0000] [20994] [INFO] Shutting down: Master
+[2016-05-17 00:50:52 +0000] [21635] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:50:52 +0000] [21635] [INFO] Listening at: http://127.0.0.1:8081 (21635)
+[2016-05-17 00:50:52 +0000] [21635] [INFO] Using worker: sync
+[2016-05-17 00:50:52 +0000] [21642] [INFO] Booting worker with pid: 21642
+[2016-05-17 00:50:52 +0000] [21645] [INFO] Booting worker with pid: 21645
+[2016-05-17 00:55:30 +0000] [21635] [INFO] Handling signal: term
+[2016-05-16 21:55:30 +0000] [21642] [INFO] Worker exiting (pid: 21642)
+[2016-05-16 21:55:30 +0000] [21645] [INFO] Worker exiting (pid: 21645)
+[2016-05-17 00:55:30 +0000] [21635] [INFO] Shutting down: Master
+[2016-05-17 00:55:31 +0000] [22172] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:55:31 +0000] [22172] [INFO] Listening at: http://127.0.0.1:8081 (22172)
+[2016-05-17 00:55:31 +0000] [22172] [INFO] Using worker: sync
+[2016-05-17 00:55:31 +0000] [22179] [INFO] Booting worker with pid: 22179
+[2016-05-17 00:55:31 +0000] [22180] [INFO] Booting worker with pid: 22180
+[2016-05-17 00:56:21 +0000] [22172] [INFO] Handling signal: term
+[2016-05-16 21:56:21 +0000] [22180] [INFO] Worker exiting (pid: 22180)
+[2016-05-16 21:56:21 +0000] [22179] [INFO] Worker exiting (pid: 22179)
+[2016-05-17 00:56:22 +0000] [22172] [INFO] Shutting down: Master
+[2016-05-17 00:56:22 +0000] [22330] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:56:22 +0000] [22330] [INFO] Listening at: http://127.0.0.1:8081 (22330)
+[2016-05-17 00:56:22 +0000] [22330] [INFO] Using worker: sync
+[2016-05-17 00:56:22 +0000] [22337] [INFO] Booting worker with pid: 22337
+[2016-05-17 00:56:22 +0000] [22338] [INFO] Booting worker with pid: 22338
+[2016-05-17 00:59:18 +0000] [22330] [INFO] Handling signal: term
+[2016-05-16 21:59:18 +0000] [22337] [INFO] Worker exiting (pid: 22337)
+[2016-05-16 21:59:18 +0000] [22338] [INFO] Worker exiting (pid: 22338)
+[2016-05-17 00:59:18 +0000] [22330] [INFO] Shutting down: Master
+[2016-05-17 00:59:18 +0000] [22614] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 00:59:19 +0000] [22614] [INFO] Listening at: http://127.0.0.1:8081 (22614)
+[2016-05-17 00:59:19 +0000] [22614] [INFO] Using worker: sync
+[2016-05-17 00:59:19 +0000] [22621] [INFO] Booting worker with pid: 22621
+[2016-05-17 00:59:19 +0000] [22624] [INFO] Booting worker with pid: 22624
+[2016-05-17 01:04:47 +0000] [22614] [INFO] Handling signal: term
+[2016-05-16 22:04:47 +0000] [22621] [INFO] Worker exiting (pid: 22621)
+[2016-05-16 22:04:47 +0000] [22624] [INFO] Worker exiting (pid: 22624)
+[2016-05-17 01:04:47 +0000] [22614] [INFO] Shutting down: Master
+[2016-05-17 01:04:48 +0000] [23067] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:04:48 +0000] [23067] [INFO] Listening at: http://127.0.0.1:8081 (23067)
+[2016-05-17 01:04:48 +0000] [23067] [INFO] Using worker: sync
+[2016-05-17 01:04:48 +0000] [23074] [INFO] Booting worker with pid: 23074
+[2016-05-17 01:04:48 +0000] [23075] [INFO] Booting worker with pid: 23075
+[2016-05-17 01:05:21 +0000] [23067] [INFO] Handling signal: term
+[2016-05-16 22:05:21 +0000] [23074] [INFO] Worker exiting (pid: 23074)
+[2016-05-16 22:05:21 +0000] [23075] [INFO] Worker exiting (pid: 23075)
+[2016-05-17 01:05:21 +0000] [23067] [INFO] Shutting down: Master
+[2016-05-17 01:05:22 +0000] [23198] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:05:22 +0000] [23198] [INFO] Listening at: http://127.0.0.1:8081 (23198)
+[2016-05-17 01:05:22 +0000] [23198] [INFO] Using worker: sync
+[2016-05-17 01:05:22 +0000] [23205] [INFO] Booting worker with pid: 23205
+[2016-05-17 01:05:22 +0000] [23208] [INFO] Booting worker with pid: 23208
+[2016-05-17 01:07:46 +0000] [23198] [INFO] Handling signal: term
+[2016-05-16 22:07:46 +0000] [23205] [INFO] Worker exiting (pid: 23205)
+[2016-05-16 22:07:46 +0000] [23208] [INFO] Worker exiting (pid: 23208)
+[2016-05-17 01:07:46 +0000] [23198] [INFO] Shutting down: Master
+[2016-05-17 01:07:47 +0000] [23621] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:07:47 +0000] [23621] [INFO] Listening at: http://127.0.0.1:8081 (23621)
+[2016-05-17 01:07:47 +0000] [23621] [INFO] Using worker: sync
+[2016-05-17 01:07:47 +0000] [23629] [INFO] Booting worker with pid: 23629
+[2016-05-17 01:07:47 +0000] [23632] [INFO] Booting worker with pid: 23632
+[2016-05-17 01:09:32 +0000] [23621] [INFO] Handling signal: term
+[2016-05-16 22:09:32 +0000] [23629] [INFO] Worker exiting (pid: 23629)
+[2016-05-16 22:09:32 +0000] [23632] [INFO] Worker exiting (pid: 23632)
+[2016-05-17 01:09:33 +0000] [23621] [INFO] Shutting down: Master
+[2016-05-17 01:09:33 +0000] [23814] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:09:33 +0000] [23814] [INFO] Listening at: http://127.0.0.1:8081 (23814)
+[2016-05-17 01:09:33 +0000] [23814] [INFO] Using worker: sync
+[2016-05-17 01:09:33 +0000] [23821] [INFO] Booting worker with pid: 23821
+[2016-05-17 01:09:33 +0000] [23822] [INFO] Booting worker with pid: 23822
+[2016-05-17 01:10:03 +0000] [23814] [INFO] Handling signal: term
+[2016-05-16 22:10:03 +0000] [23821] [INFO] Worker exiting (pid: 23821)
+[2016-05-16 22:10:03 +0000] [23822] [INFO] Worker exiting (pid: 23822)
+[2016-05-17 01:10:03 +0000] [23814] [INFO] Shutting down: Master
+[2016-05-17 01:10:04 +0000] [23947] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:10:04 +0000] [23947] [INFO] Listening at: http://127.0.0.1:8081 (23947)
+[2016-05-17 01:10:04 +0000] [23947] [INFO] Using worker: sync
+[2016-05-17 01:10:04 +0000] [23954] [INFO] Booting worker with pid: 23954
+[2016-05-17 01:10:04 +0000] [23955] [INFO] Booting worker with pid: 23955
+[2016-05-17 01:17:12 +0000] [23947] [INFO] Handling signal: term
+[2016-05-16 22:17:12 +0000] [23954] [INFO] Worker exiting (pid: 23954)
+[2016-05-16 22:17:12 +0000] [23955] [INFO] Worker exiting (pid: 23955)
+[2016-05-17 01:17:12 +0000] [23947] [INFO] Shutting down: Master
+[2016-05-17 01:17:13 +0000] [24508] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:17:13 +0000] [24508] [INFO] Listening at: http://127.0.0.1:8081 (24508)
+[2016-05-17 01:17:13 +0000] [24508] [INFO] Using worker: sync
+[2016-05-17 01:17:13 +0000] [24515] [INFO] Booting worker with pid: 24515
+[2016-05-17 01:17:13 +0000] [24516] [INFO] Booting worker with pid: 24516
+[2016-05-17 01:39:45 +0000] [24508] [INFO] Handling signal: term
+[2016-05-16 22:39:45 +0000] [24515] [INFO] Worker exiting (pid: 24515)
+[2016-05-16 22:39:45 +0000] [24516] [INFO] Worker exiting (pid: 24516)
+[2016-05-17 01:39:45 +0000] [24508] [INFO] Shutting down: Master
+[2016-05-17 01:39:46 +0000] [26124] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 01:39:46 +0000] [26124] [INFO] Listening at: http://127.0.0.1:8081 (26124)
+[2016-05-17 01:39:46 +0000] [26124] [INFO] Using worker: sync
+[2016-05-17 01:39:46 +0000] [26131] [INFO] Booting worker with pid: 26131
+[2016-05-17 01:39:46 +0000] [26134] [INFO] Booting worker with pid: 26134
+[2016-05-16 22:43:24 +0000] [26131] [INFO] Worker exiting (pid: 26131)
+[2016-05-17 01:43:24 +0000] [26124] [INFO] Handling signal: term
+[2016-05-16 22:43:24 +0000] [26134] [INFO] Worker exiting (pid: 26134)
+[2016-05-17 01:43:24 +0000] [26124] [INFO] Shutting down: Master
+[2016-05-17 13:04:25 +0000] [3110] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 13:04:25 +0000] [3110] [INFO] Listening at: http://127.0.0.1:8081 (3110)
+[2016-05-17 13:04:25 +0000] [3110] [INFO] Using worker: sync
+[2016-05-17 13:04:25 +0000] [3117] [INFO] Booting worker with pid: 3117
+[2016-05-17 13:04:25 +0000] [3118] [INFO] Booting worker with pid: 3118
+[2016-05-17 13:06:19 +0000] [4220] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 13:06:21 +0000] [3110] [INFO] Handling signal: term
+[2016-05-17 10:06:21 +0000] [3117] [INFO] Worker exiting (pid: 3117)
+[2016-05-17 10:06:21 +0000] [3118] [INFO] Worker exiting (pid: 3118)
+[2016-05-17 13:06:21 +0000] [3110] [INFO] Shutting down: Master
+[2016-05-17 13:06:22 +0000] [4325] [INFO] Starting gunicorn 19.4.5
+[2016-05-17 13:06:22 +0000] [4325] [INFO] Listening at: http://127.0.0.1:8081 (4325)
+[2016-05-17 13:06:22 +0000] [4325] [INFO] Using worker: sync
+[2016-05-17 13:06:22 +0000] [4332] [INFO] Booting worker with pid: 4332
+[2016-05-17 13:06:22 +0000] [4333] [INFO] Booting worker with pid: 4333
+[2016-05-17 13:08:04 +0000] [6238] [INFO] Booting worker with pid: 6238
+[2016-05-17 13:08:05 +0000] [4325] [INFO] Handling signal: hup
+[2016-05-17 13:08:05 +0000] [4325] [INFO] Hang up: Master
+[2016-05-17 13:08:05 +0000] [6287] [INFO] Booting worker with pid: 6287
+[2016-05-17 13:08:05 +0000] [4325] [INFO] Handling signal: term
+[2016-05-17 13:08:05 +0000] [6290] [INFO] Booting worker with pid: 6290
+[2016-05-17 10:08:05 +0000] [6287] [INFO] Worker exiting (pid: 6287)
+[2016-05-17 13:08:35 +0000] [4325] [INFO] Shutting down: Master
